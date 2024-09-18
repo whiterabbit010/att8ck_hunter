@@ -1,15 +1,16 @@
 
 
-# Sysmon Pattern Extractor with MITRE ATT&CK Integration
+# Sysmon Pattern Extractor and Analyzer with MITRE ATT&CK Integration
 
 **Author**: wRabit /szymon
 **Date**: _September 18, 2024_
+**Version**: 1.0
 
 ---
 
 ## Overview
 
-This project is an ongoing Python-based tool designed to extract patterns from Sysmon configuration files and match them with relevant MITRE ATT&CK techniques. The extracted patterns are dynamically matched using exact and fuzzy matching, providing insights into potential indicators of compromise based on MITRE's globally recognized framework.
+This project is an ongoing Python-based tool designed to extract patterns from Sysmon configuration files and match them with relevant MITRE ATT&CK techniques. The extracted patterns are dynamically matched using exact and fuzzy matching, providing insights into potential indicators of compromise based on MITRE's globally recognized framework (https://attack.mitre.org/).
 
 The project is still in **development** and requires further improvements, but the core functionality is in place for users to:
 
@@ -30,6 +31,8 @@ This project is still **in progress** and **requires improvements**, including:
 1. Better handling of pattern edge cases.
 2. Optimization of fuzzy matching for speed.
 3. Additional pattern extraction capabilities from Sysmon logs.
+4. Better error handling
+5. enable logging
 
 ---
 
@@ -48,8 +51,8 @@ This project is still **in progress** and **requires improvements**, including:
 1. **Clone the repository**:
     
 ```
-    git clone https://github.com/whiterabbit010/sysmon-pattern-extractor.git
-    cd sysmon-pattern-extractor
+    git clone https://github.com/whiterabbit010/att8ck_hunter.git
+    cd att8ck_hunter
 ```
 
     
@@ -84,7 +87,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributions
 
-**Author**: wRabit  
+![May_be_the_wizz_with_you](thewizard.png)
+
+**Author**: wRabit                                      
 **Date**: _September 18, 2024_  
 All contributions are welcome!
 
