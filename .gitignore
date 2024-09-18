@@ -1,0 +1,59 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.eggs/
+
+# Environment-related
+.env
+.vscode/
+.idea/
+.venv/
+venv/
+env/
+ENV/
+.Python
+*.env
+
+# PyInstaller
+# Usually created by PyInstaller during packaging
+dist/
+build/
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*.log
+
+# SQLite database files
+*.sqlite3
+
+# Local directories and data files
+*.db
+instance/
+attack-patterns/
+mitre_attack_data.json  # Skip if you don't want to version control the merged data file
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# System-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git-related
+*.swp
+*.swo
+
+# Ignore any secret keys or configurations
+secrets.json
+
+# Ignore the mitre_attack_data.json file
+mitre_attack_data.json
+
