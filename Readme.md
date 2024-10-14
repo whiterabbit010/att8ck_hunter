@@ -77,11 +77,7 @@ This project is still **in progress** and **requires improvements**, including:
 
 Feel free to fork the repository, open issues, or submit pull requests to contribute to this project.
 
----
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
